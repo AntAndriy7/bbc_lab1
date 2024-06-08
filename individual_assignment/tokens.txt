@@ -1,0 +1,813 @@
+Token
+	type:	COMMENT
+	value:	// Оголошення змінних та функції
+	posit:	0
+
+Token
+	type:	KEYWORD
+	value:	let
+	posit:	34
+
+Token
+	type:	IDENTIFIER
+	value:	name
+	posit:	38
+
+Token
+	type:	OPERATOR
+	value:	=
+	posit:	43
+
+Token
+	type:	LITERAL_STRING
+	value:	"Ivan"
+	posit:	45
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	51
+
+Token
+	type:	KEYWORD
+	value:	const
+	posit:	54
+
+Token
+	type:	IDENTIFIER
+	value:	age
+	posit:	60
+
+Token
+	type:	OPERATOR
+	value:	=
+	posit:	64
+
+Token
+	type:	LITERAL_FLOAT
+	value:	30.5
+	posit:	66
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	70
+
+Token
+	type:	COMMENT
+	value:	/*
+* let name = "Ivan";
+* const age = 30.5;
+*/
+	posit:	75
+
+Token
+	type:	KEYWORD
+	value:	function
+	posit:	128
+
+Token
+	type:	IDENTIFIER
+	value:	hello
+	posit:	137
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	142
+
+Token
+	type:	IDENTIFIER
+	value:	person
+	posit:	143
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	149
+
+Token
+	type:	PUNCTUATOR
+	value:	{
+	posit:	151
+
+Token
+	type:	IDENTIFIER
+	value:	console
+	posit:	158
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	165
+
+Token
+	type:	IDENTIFIER
+	value:	log
+	posit:	166
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	169
+
+Token
+	type:	LITERAL_STRING
+	value:	"Hello, "
+	posit:	170
+
+Token
+	type:	OPERATOR
+	value:	+
+	posit:	180
+
+Token
+	type:	IDENTIFIER
+	value:	person
+	posit:	182
+
+Token
+	type:	OPERATOR
+	value:	+
+	posit:	189
+
+Token
+	type:	LITERAL_STRING
+	value:	"!"
+	posit:	191
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	194
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	195
+
+Token
+	type:	PUNCTUATOR
+	value:	}
+	posit:	198
+
+Token
+	type:	IDENTIFIER
+	value:	hello
+	posit:	203
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	208
+
+Token
+	type:	IDENTIFIER
+	value:	name
+	posit:	209
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	213
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	214
+
+Token
+	type:	COMMENT
+	value:	// Умовний оператор
+	posit:	219
+
+Token
+	type:	KEYWORD
+	value:	if
+	posit:	240
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	243
+
+Token
+	type:	IDENTIFIER
+	value:	age
+	posit:	244
+
+Token
+	type:	OPERATOR
+	value:	>=
+	posit:	248
+
+Token
+	type:	LITERAL_INTEGER
+	value:	18
+	posit:	251
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	253
+
+Token
+	type:	PUNCTUATOR
+	value:	{
+	posit:	255
+
+Token
+	type:	IDENTIFIER
+	value:	console
+	posit:	262
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	269
+
+Token
+	type:	IDENTIFIER
+	value:	log
+	posit:	270
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	273
+
+Token
+	type:	IDENTIFIER
+	value:	name
+	posit:	274
+
+Token
+	type:	OPERATOR
+	value:	+
+	posit:	279
+
+Token
+	type:	LITERAL_STRING
+	value:	" is an adult."
+	posit:	281
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	296
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	297
+
+Token
+	type:	PUNCTUATOR
+	value:	}
+	posit:	300
+
+Token
+	type:	KEYWORD
+	value:	else
+	posit:	302
+
+Token
+	type:	PUNCTUATOR
+	value:	{
+	posit:	307
+
+Token
+	type:	IDENTIFIER
+	value:	console
+	posit:	314
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	321
+
+Token
+	type:	IDENTIFIER
+	value:	log
+	posit:	322
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	325
+
+Token
+	type:	IDENTIFIER
+	value:	name
+	posit:	326
+
+Token
+	type:	OPERATOR
+	value:	+
+	posit:	331
+
+Token
+	type:	LITERAL_STRING
+	value:	" is a minor."
+	posit:	333
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	347
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	348
+
+Token
+	type:	PUNCTUATOR
+	value:	}
+	posit:	351
+
+Token
+	type:	COMMENT
+	value:	// Цикл for
+	posit:	356
+
+Token
+	type:	KEYWORD
+	value:	for
+	posit:	369
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	373
+
+Token
+	type:	KEYWORD
+	value:	let
+	posit:	374
+
+Token
+	type:	IDENTIFIER
+	value:	i
+	posit:	378
+
+Token
+	type:	OPERATOR
+	value:	=
+	posit:	380
+
+Token
+	type:	LITERAL_INTEGER
+	value:	0
+	posit:	382
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	383
+
+Token
+	type:	IDENTIFIER
+	value:	i
+	posit:	385
+
+Token
+	type:	OPERATOR
+	value:	<
+	posit:	387
+
+Token
+	type:	LITERAL_INTEGER
+	value:	5
+	posit:	389
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	390
+
+Token
+	type:	IDENTIFIER
+	value:	i
+	posit:	392
+
+Token
+	type:	OPERATOR
+	value:	++
+	posit:	393
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	395
+
+Token
+	type:	PUNCTUATOR
+	value:	{
+	posit:	397
+
+Token
+	type:	IDENTIFIER
+	value:	console
+	posit:	404
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	411
+
+Token
+	type:	IDENTIFIER
+	value:	log
+	posit:	412
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	415
+
+Token
+	type:	LITERAL_STRING
+	value:	"Iteration "
+	posit:	416
+
+Token
+	type:	OPERATOR
+	value:	+
+	posit:	429
+
+Token
+	type:	IDENTIFIER
+	value:	i
+	posit:	431
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	432
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	433
+
+Token
+	type:	PUNCTUATOR
+	value:	}
+	posit:	436
+
+Token
+	type:	COMMENT
+	value:	// Об'єкт
+	posit:	441
+
+Token
+	type:	KEYWORD
+	value:	let
+	posit:	452
+
+Token
+	type:	IDENTIFIER
+	value:	person
+	posit:	456
+
+Token
+	type:	OPERATOR
+	value:	=
+	posit:	463
+
+Token
+	type:	PUNCTUATOR
+	value:	{
+	posit:	465
+
+Token
+	type:	IDENTIFIER
+	value:	name
+	posit:	472
+
+Token
+	type:	PUNCTUATOR
+	value:	:
+	posit:	476
+
+Token
+	type:	LITERAL_STRING
+	value:	"Bob"
+	posit:	478
+
+Token
+	type:	PUNCTUATOR
+	value:	,
+	posit:	483
+
+Token
+	type:	IDENTIFIER
+	value:	age
+	posit:	490
+
+Token
+	type:	PUNCTUATOR
+	value:	:
+	posit:	493
+
+Token
+	type:	LITERAL_FLOAT
+	value:	20.5
+	posit:	495
+
+Token
+	type:	PUNCTUATOR
+	value:	,
+	posit:	499
+
+Token
+	type:	IDENTIFIER
+	value:	hello
+	posit:	506
+
+Token
+	type:	PUNCTUATOR
+	value:	:
+	posit:	511
+
+Token
+	type:	KEYWORD
+	value:	function
+	posit:	513
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	521
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	522
+
+Token
+	type:	PUNCTUATOR
+	value:	{
+	posit:	524
+
+Token
+	type:	IDENTIFIER
+	value:	console
+	posit:	535
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	542
+
+Token
+	type:	IDENTIFIER
+	value:	log
+	posit:	543
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	546
+
+Token
+	type:	LITERAL_STRING
+	value:	"Hi, my name is "
+	posit:	547
+
+Token
+	type:	OPERATOR
+	value:	+
+	posit:	565
+
+Token
+	type:	KEYWORD
+	value:	this
+	posit:	567
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	571
+
+Token
+	type:	IDENTIFIER
+	value:	name
+	posit:	572
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	576
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	577
+
+Token
+	type:	PUNCTUATOR
+	value:	}
+	posit:	584
+
+Token
+	type:	PUNCTUATOR
+	value:	}
+	posit:	587
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	588
+
+Token
+	type:	COMMENT
+	value:	// Массив та робота з ним
+	posit:	593
+
+Token
+	type:	KEYWORD
+	value:	let
+	posit:	620
+
+Token
+	type:	IDENTIFIER
+	value:	numbers
+	posit:	624
+
+Token
+	type:	OPERATOR
+	value:	=
+	posit:	632
+
+Token
+	type:	PUNCTUATOR
+	value:	[
+	posit:	634
+
+Token
+	type:	LITERAL_INTEGER
+	value:	1
+	posit:	635
+
+Token
+	type:	PUNCTUATOR
+	value:	,
+	posit:	636
+
+Token
+	type:	LITERAL_INTEGER
+	value:	2
+	posit:	638
+
+Token
+	type:	PUNCTUATOR
+	value:	,
+	posit:	639
+
+Token
+	type:	LITERAL_INTEGER
+	value:	3
+	posit:	641
+
+Token
+	type:	PUNCTUATOR
+	value:	,
+	posit:	642
+
+Token
+	type:	LITERAL_INTEGER
+	value:	4
+	posit:	644
+
+Token
+	type:	PUNCTUATOR
+	value:	,
+	posit:	645
+
+Token
+	type:	LITERAL_INTEGER
+	value:	5
+	posit:	647
+
+Token
+	type:	PUNCTUATOR
+	value:	]
+	posit:	648
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	649
+
+Token
+	type:	IDENTIFIER
+	value:	numbers
+	posit:	652
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	659
+
+Token
+	type:	IDENTIFIER
+	value:	forEach
+	posit:	660
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	667
+
+Token
+	type:	KEYWORD
+	value:	function
+	posit:	668
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	676
+
+Token
+	type:	IDENTIFIER
+	value:	number
+	posit:	677
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	683
+
+Token
+	type:	PUNCTUATOR
+	value:	{
+	posit:	685
+
+Token
+	type:	IDENTIFIER
+	value:	console
+	posit:	692
+
+Token
+	type:	PUNCTUATOR
+	value:	.
+	posit:	699
+
+Token
+	type:	IDENTIFIER
+	value:	log
+	posit:	700
+
+Token
+	type:	PUNCTUATOR
+	value:	(
+	posit:	703
+
+Token
+	type:	LITERAL_STRING
+	value:	"Number: "
+	posit:	704
+
+Token
+	type:	OPERATOR
+	value:	+
+	posit:	715
+
+Token
+	type:	IDENTIFIER
+	value:	number
+	posit:	717
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	723
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	724
+
+Token
+	type:	PUNCTUATOR
+	value:	}
+	posit:	727
+
+Token
+	type:	PUNCTUATOR
+	value:	)
+	posit:	728
+
+Token
+	type:	PUNCTUATOR
+	value:	;
+	posit:	729
+
+Token
+	type:	EOF
+	value:	
+	posit:	730
+
